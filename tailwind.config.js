@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}", // Isto garante que os arquivos do React sejam lidos
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
